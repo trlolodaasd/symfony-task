@@ -16,7 +16,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class HomeController extends AbstractController
 {
-    // #[Route('/api/posts/{id}', methods: ['GET', 'HEAD'], requirements: ['id' => '\d+'])]
+ 
 
     public function home(Request $request): Response
     {
