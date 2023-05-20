@@ -1,0 +1,39 @@
+{% extends  "base.html.twig" %}
+
+{% block main %}
+
+	{# {{ form_start(form) }} #}
+	<div id="main" class="d-flex justify-content-center">
+		<div class="card m-3 text-center" style="width: 25%">
+			{% trans %}
+			<div class="card-header">
+
+				Calculation of the cost including tax
+			</div>
+			{% endtrans %}
+
+			<div class="card-body d-flex flex-column">
+				<div  >
+					Country:
+					 {{country}}
+				</div>
+
+			</div>
+			<div class="card-body d-flex flex-column">
+				<div  >
+					Product: {{productName}}
+				</div>
+
+			</div>
+			<div class="card-body d-flex flex-column">
+				<div  >
+					Total cost: {{price}}
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	{# {{ form_end(form) }} #}
+{% endblock %}

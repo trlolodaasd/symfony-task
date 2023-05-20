@@ -1,0 +1,9 @@
+App\Entity\ProductForm:
+    properties:
+        productCode:
+            - NotBlank: ~
+            - NotNull: ~
+            - Regex:
+                  pattern: '/\b^(GE|IT|GR)[0-9]*$\b/s'
+                  match: true
+                  message: Format tax number to XXYYYYYYYYYYY

@@ -1,0 +1,17 @@
+[
+    {
+        "country": "Germany",
+        "iso": "GE",
+        "tax": 0.19
+    },
+    {
+        "country": "Italy",
+        "iso": "IT",
+        "tax": 0.22
+    },
+    {
+        "country": "Greece",
+        "iso": "GR",
+        "tax": 0.24
+    }
+]
